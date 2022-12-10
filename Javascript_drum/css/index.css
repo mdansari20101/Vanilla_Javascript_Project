@@ -2,8 +2,22 @@ html {
     font-size: 10px;
     background: url('./background.jpg') bottom center;
     background-size: cover;
+    min-height: 100vh;
   }
-  
+  .heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  div>h1{
+    color: white;
+    font-size: 4rem;
+    font-family: 'Courier New', Courier, monospace;
+    border: 3px solid white;
+    padding: 20px;
+    border-radius: 10px;
+   
+  }
   body,html {
     margin: 0;
     padding: 0;
@@ -13,15 +27,15 @@ html {
   .keys {
     display: flex;
     flex: 1;
-    min-height: 90vh;
+    /* min-height: 90vh; */
     align-items: flex-start;
     justify-content: center;
-    margin-top: 10vh;
+    margin-top: 8vh;
     /* flex-wrap: wrap; */
   }
   
   .key {
-    border: .4rem solid black;
+    border: .4rem solid white;
     border-radius: .5rem;
     margin: 1rem;
     font-size: 1.5rem;
@@ -37,7 +51,7 @@ html {
   .playing {
     transform: scale(1.1);
     border-color: #ffc600;
-    box-shadow: 0 0 1rem #ffc600;
+    box-shadow: 0 0 3rem #ffc600;
   }
   
   kbd {
