@@ -33,7 +33,9 @@ html {
     margin-top: 8vh;
     /* flex-wrap: wrap; */
   }
-  
+  .key:hover{
+    cursor: pointer;
+  }
   .key {
     border: .4rem solid white;
     border-radius: .5rem;
